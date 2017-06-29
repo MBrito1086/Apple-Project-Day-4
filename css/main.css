@@ -1,0 +1,40 @@
+body   {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+  display:flex;
+  justify-content: space-around;
+  background-color: #2C2723;
+  color: white;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+  flex-grow: 1;
+}
+
+.header-content {
+  background-image: url("../img/iphone-background.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 560px;
+  background-size: cover;
+  padding-top: 5em;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-link {
+  padding: 26px;
+}
